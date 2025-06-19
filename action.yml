@@ -1,0 +1,19 @@
+name: Hello World by MasterOf-None
+description: Greet someone and record the time
+
+inputs:
+  who-to-greet: #id of input
+    description: Who to greet
+    required: true
+    default: World
+
+outputs:
+  time: # id of output
+  description: Time time we greeted you
+
+run:
+  using: node20
+  main: dist/index.js
+branding:
+  icon: 'message-square'
+  color: 'blue'
