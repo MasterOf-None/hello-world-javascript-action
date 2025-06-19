@@ -13,7 +13,7 @@ This action prints "Hello World" or "Help" + the name of a person to greet to th
 ### `time`
 
 ```yaml
-uses: actions/hello-world-javascript-actions@v1
+uses: actions/hello-world-javascript-actions@v1.1.2
 with:
   who-to-greet: Mona the Octocat
 ```
